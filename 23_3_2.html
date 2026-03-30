@@ -6,6 +6,10 @@
 <title>LogiqueCode Release Update</title>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -23,12 +27,33 @@ header {
 
 header h1 {
   font-size: 40px;
-  margin-bottom: 10px;
 }
 
-header p {
-  font-size: 18px;
-  opacity: 0.95;
+/* NAVBAR */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e7eb;
+  z-index: 1000;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #374151;
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  background: #2563eb;
+  color: white;
 }
 
 /* CONTAINER */
@@ -43,7 +68,7 @@ header p {
   background: #ffffff;
   border-radius: 14px;
   padding: 30px;
-  margin-bottom: 35px;
+  margin-bottom: 50px;
   border: 1px solid #e5e7eb;
   box-shadow: 0 10px 25px rgba(0,0,0,0.05);
 }
@@ -74,11 +99,6 @@ header p {
   color: #2563eb;
 }
 
-/* SECTION TITLE */
-.section-title {
-  margin-bottom: 20px;
-}
-
 /* FOOTER */
 .footer {
   text-align: center;
@@ -96,73 +116,80 @@ header p {
   <p>GPMA • LMS • DPMS — Enhancing Efficiency, Control & Experience</p>
 </header>
 
+<!-- NAVIGATION -->
+<div class="navbar">
+  <a href="#gpma">🏭 GPMA</a>
+  <a href="#lms">🎓 LMS</a>
+  <a href="#dpms">🏥 DPMS</a>
+</div>
+
 <div class="container">
 
   <!-- GPMA -->
-  <div class="card">
-    <h2 class="section-title">🏭 GPMA – Production & Inventory Management</h2>
+  <div class="card" id="gpma">
+    <h2>🏭 GPMA – Production & Inventory Management</h2>
     <div class="grid">
       <div class="feature">
         <h4>Enhanced Spare Requisition</h4>
-        <p>Optimized request flow with improved tracking, visibility, and faster approvals. Helps reduce delays and ensures better spare availability planning.</p>
+        <p>Improved tracking and faster approvals for efficient spare management.</p>
       </div>
       <div class="feature">
-        <h4>Production Sheet with Material Requisition</h4>
-        <p>Integrated material requisition directly within production sheet creation, eliminating duplication and ensuring accurate production planning.</p>
+        <h4>Production Sheet + Material Req</h4>
+        <p>Integrated material requisition within production workflow.</p>
       </div>
       <div class="feature">
-        <h4>Approval Management System</h4>
-        <p>Configurable approval hierarchy ensures structured workflows, improved accountability, and transparent decision-making.</p>
+        <h4>Approval System</h4>
+        <p>Structured approval hierarchy for better control.</p>
       </div>
       <div class="feature">
-        <h4>Role-Based Authentication</h4>
-        <p>Secure access control allowing users to interact only with relevant modules, enhancing data security and operational governance.</p>
+        <h4>Role-Based Access</h4>
+        <p>Secure, role-specific access to modules.</p>
       </div>
     </div>
   </div>
 
   <!-- LMS -->
-  <div class="card">
-    <h2 class="section-title">🎓 LMS – Academic & Campus Management</h2>
+  <div class="card" id="lms">
+    <h2>🎓 LMS – Academic Management</h2>
     <div class="grid">
       <div class="feature">
-        <h4>Visitor Management System</h4>
-        <p>Digitized visitor entry system to improve campus security, tracking, and administrative control.</p>
+        <h4>Visitor Management</h4>
+        <p>Secure digital visitor tracking system.</p>
       </div>
       <div class="feature">
-        <h4>Enhanced Enquiry Dashboard</h4>
-        <p>Advanced dashboard with improved data visibility to track admissions pipeline and improve conversion efficiency.</p>
+        <h4>Enquiry Dashboard</h4>
+        <p>Better visibility into admissions pipeline.</p>
       </div>
       <div class="feature">
-        <h4>New Batch Management UI</h4>
-        <p>Modern and intuitive interface for faster batch creation, updates, and academic structuring.</p>
+        <h4>Batch Management UI</h4>
+        <p>Modern and intuitive interface.</p>
       </div>
       <div class="feature">
         <h4>Subject-wise Attendance</h4>
-        <p>Detailed attendance tracking at subject level for better academic monitoring and compliance.</p>
+        <p>Granular attendance tracking.</p>
       </div>
       <div class="feature">
-        <h4>Improved Hostel Management</h4>
-        <p>Enhanced room allocation and occupancy tracking ensuring smooth hostel operations and student management.</p>
+        <h4>Hostel Management</h4>
+        <p>Efficient room allocation and tracking.</p>
       </div>
     </div>
   </div>
 
   <!-- DPMS -->
-  <div class="card">
-    <h2 class="section-title">🏥 DPMS – Clinical & Practice Management</h2>
+  <div class="card" id="dpms">
+    <h2>🏥 DPMS – Clinical Management</h2>
     <div class="grid">
       <div class="feature">
-        <h4>Template-Based Prescription</h4>
-        <p>Doctors can quickly generate prescriptions using predefined templates, reducing consultation time and ensuring consistency.</p>
+        <h4>Prescription Templates</h4>
+        <p>Faster prescription creation with templates.</p>
       </div>
       <div class="feature">
-        <h4>Custom Disease Management</h4>
-        <p>Hospitals can add and manage diseases based on their specialization, making the system flexible and adaptable.</p>
+        <h4>Custom Diseases</h4>
+        <p>Flexible disease configuration.</p>
       </div>
       <div class="feature">
-        <h4>Procedures & Investigations Control</h4>
-        <p>Enable or disable procedures based on facility availability, ensuring accurate service representation and avoiding confusion.</p>
+        <h4>Procedures Control</h4>
+        <p>Enable/disable services dynamically.</p>
       </div>
     </div>
   </div>

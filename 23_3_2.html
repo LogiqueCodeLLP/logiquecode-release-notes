@@ -3,31 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LogiqueCode Product Suite Update</title>
+<title>LogiqueCode Release Update</title>
 
 <style>
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: #0b1120;
-  color: #e6edf3;
+  background: #ffffff;
+  color: #1f2937;
 }
 
 /* HEADER */
 header {
   text-align: center;
-  padding: 90px 20px;
-  background: linear-gradient(135deg, #0b1120, #1e3a8a, #6d28d9);
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #2563eb, #4f46e5);
+  color: white;
 }
 
 header h1 {
-  font-size: 44px;
+  font-size: 40px;
   margin-bottom: 10px;
 }
 
 header p {
   font-size: 18px;
-  color: #cbd5f5;
+  opacity: 0.95;
 }
 
 /* CONTAINER */
@@ -39,63 +40,51 @@ header p {
 
 /* CARD */
 .card {
-  background: #111827;
-  border-radius: 18px;
+  background: #ffffff;
+  border-radius: 14px;
   padding: 30px;
   margin-bottom: 35px;
-  border: 1px solid rgba(59,130,246,0.2);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.4);
-  transition: 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  border-color: #3b82f6;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
 }
 
 /* GRID */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 20px;
 }
 
-/* FEATURE BOX */
+/* FEATURE */
 .feature {
-  background: linear-gradient(145deg, #020617, #0f172a);
   padding: 18px;
-  border-radius: 12px;
-  border: 1px solid rgba(148,163,184,0.1);
+  border-radius: 10px;
+  border: 1px solid #f1f5f9;
+  background: #f9fafb;
   transition: 0.3s;
 }
 
 .feature:hover {
-  border-color: #6366f1;
-  transform: scale(1.03);
+  transform: translateY(-4px);
+  border-color: #2563eb;
 }
 
 .feature h4 {
   margin: 0 0 8px 0;
-  color: #60a5fa;
+  color: #2563eb;
+}
+
+/* SECTION TITLE */
+.section-title {
+  margin-bottom: 20px;
 }
 
 /* FOOTER */
 .footer {
   text-align: center;
   padding: 40px;
-  color: #94a3b8;
-  border-top: 1px solid rgba(255,255,255,0.05);
-}
-
-/* BADGE */
-.badge {
-  display: inline-block;
-  padding: 6px 12px;
-  border-radius: 20px;
-  font-size: 12px;
-  background: rgba(59,130,246,0.15);
-  color: #60a5fa;
-  margin-bottom: 10px;
+  color: #6b7280;
+  border-top: 1px solid #e5e7eb;
 }
 </style>
 </head>
@@ -103,78 +92,77 @@ header p {
 <body>
 
 <header>
-  <div class="badge">LogiqueCode Release • March 2026</div>
-  <h1>🚀 Product Suite Update</h1>
-  <p>GPMA • LMS • DPMS — Engineered for Efficiency, Built for Scale</p>
+  <h1>🚀 LogiqueCode Product Suite Update</h1>
+  <p>GPMA • LMS • DPMS — Enhancing Efficiency, Control & Experience</p>
 </header>
 
 <div class="container">
 
   <!-- GPMA -->
   <div class="card">
-    <h2>🏭 GPMA – Production & Inventory Excellence</h2>
+    <h2 class="section-title">🏭 GPMA – Production & Inventory Management</h2>
     <div class="grid">
       <div class="feature">
-        <h4>Spare Requisition</h4>
-        <p>Faster processing with enhanced tracking & visibility.</p>
+        <h4>Enhanced Spare Requisition</h4>
+        <p>Optimized request flow with improved tracking, visibility, and faster approvals. Helps reduce delays and ensures better spare availability planning.</p>
       </div>
       <div class="feature">
-        <h4>Production Sheet</h4>
-        <p>Material requisition integrated into workflow.</p>
+        <h4>Production Sheet with Material Requisition</h4>
+        <p>Integrated material requisition directly within production sheet creation, eliminating duplication and ensuring accurate production planning.</p>
       </div>
       <div class="feature">
-        <h4>Approval Management</h4>
-        <p>Structured, configurable approval hierarchy.</p>
+        <h4>Approval Management System</h4>
+        <p>Configurable approval hierarchy ensures structured workflows, improved accountability, and transparent decision-making.</p>
       </div>
       <div class="feature">
-        <h4>Role-Based Access</h4>
-        <p>Secure, controlled system access.</p>
+        <h4>Role-Based Authentication</h4>
+        <p>Secure access control allowing users to interact only with relevant modules, enhancing data security and operational governance.</p>
       </div>
     </div>
   </div>
 
   <!-- LMS -->
   <div class="card">
-    <h2>🎓 LMS – Smart Campus Management</h2>
+    <h2 class="section-title">🎓 LMS – Academic & Campus Management</h2>
     <div class="grid">
       <div class="feature">
-        <h4>Visitor Management</h4>
-        <p>Digitized and secure visitor tracking.</p>
+        <h4>Visitor Management System</h4>
+        <p>Digitized visitor entry system to improve campus security, tracking, and administrative control.</p>
       </div>
       <div class="feature">
-        <h4>Enquiry Dashboard</h4>
-        <p>Better visibility into admissions pipeline.</p>
+        <h4>Enhanced Enquiry Dashboard</h4>
+        <p>Advanced dashboard with improved data visibility to track admissions pipeline and improve conversion efficiency.</p>
       </div>
       <div class="feature">
-        <h4>Batch Management UI</h4>
-        <p>Modern, intuitive interface.</p>
+        <h4>New Batch Management UI</h4>
+        <p>Modern and intuitive interface for faster batch creation, updates, and academic structuring.</p>
       </div>
       <div class="feature">
         <h4>Subject-wise Attendance</h4>
-        <p>Granular academic tracking.</p>
+        <p>Detailed attendance tracking at subject level for better academic monitoring and compliance.</p>
       </div>
       <div class="feature">
-        <h4>Hostel Management</h4>
-        <p>Efficient room & occupancy management.</p>
+        <h4>Improved Hostel Management</h4>
+        <p>Enhanced room allocation and occupancy tracking ensuring smooth hostel operations and student management.</p>
       </div>
     </div>
   </div>
 
   <!-- DPMS -->
   <div class="card">
-    <h2>🏥 DPMS – Intelligent Clinical Workflows</h2>
+    <h2 class="section-title">🏥 DPMS – Clinical & Practice Management</h2>
     <div class="grid">
       <div class="feature">
-        <h4>Prescription Templates</h4>
-        <p>Faster, standardized prescriptions.</p>
+        <h4>Template-Based Prescription</h4>
+        <p>Doctors can quickly generate prescriptions using predefined templates, reducing consultation time and ensuring consistency.</p>
       </div>
       <div class="feature">
-        <h4>Custom Disease Config</h4>
-        <p>Flexible disease management.</p>
+        <h4>Custom Disease Management</h4>
+        <p>Hospitals can add and manage diseases based on their specialization, making the system flexible and adaptable.</p>
       </div>
       <div class="feature">
-        <h4>Procedures Control</h4>
-        <p>Enable/disable services dynamically.</p>
+        <h4>Procedures & Investigations Control</h4>
+        <p>Enable or disable procedures based on facility availability, ensuring accurate service representation and avoiding confusion.</p>
       </div>
     </div>
   </div>

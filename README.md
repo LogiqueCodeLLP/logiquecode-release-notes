@@ -1,4 +1,9 @@
 # logiquecode-release-notes
+<p align="center">
+  <img src="https://logiquecode.com/assets/icons_images/LogiqueCode.png" alt="LogiqueCode Logo" width="180">
+</p>
+
+<h2 align="center">LogiqueCode Release Notes</h2>
 ## 📦 Release History
 
 | Version | Release Date | Notes |

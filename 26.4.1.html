@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LogiqueCode Release Update 26.3.2</title>
+
+<style>
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #ffffff;
+  color: #1f2937;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 50px 20px; /* reduced from ~80px */
+  background: linear-gradient(135deg, #2563eb, #4f46e5);
+  color: white;
+}
+
+header h1 {
+  font-size: 30px; /* reduced from ~40px */
+  margin: 10px 0;
+}
+
+header p {
+  font-size: 15px;
+  margin: 0;
+}
+
+/* NAVBAR */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e7eb;
+  z-index: 1000;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #374151;
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  background: #2563eb;
+  color: white;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1150px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+/* CARD */
+.card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 30px;
+  margin-bottom: 50px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+/* LOGO */
+.logo, .logo-container img {
+  width: 130px; /* reduced from 160–180px */
+  margin-bottom: 10px;
+}
+
+/* FEATURE */
+.feature {
+  padding: 18px;
+  border-radius: 10px;
+  border: 1px solid #f1f5f9;
+  background: #f9fafb;
+  transition: 0.3s;
+}
+
+.feature:hover {
+  transform: translateY(-4px);
+  border-color: #2563eb;
+}
+
+.feature h4 {
+  margin: 0 0 8px 0;
+  color: #2563eb;
+}
+
+.about-release {
+  background: #f8fafc;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: left;
+}
+
+.about-container h2 {
+  margin-bottom: 10px;
+  color: #1f2937;
+}
+
+.about-container p {
+  color: #4b5563;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 40px;
+  color: #6b7280;
+  border-top: 1px solid #e5e7eb;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <img src="https://logiquecode.com/assets/icons_images/LogiqueCode.png" alt="LogiqueCode Logo" class="logo">
+  <h1>LogiqueCode Product Suite Release Update 26.3.2</h1>
+  <h4>Release Date 28/03/2026 </h4>
+  <p>GPMA • LMS • DPMS — Enhancing Efficiency, Control & Experience</p>
+</header>
+<div class="about-release">
+  <div class="about-container">
+    <h2>About This Release</h2>
+    <p>
+      This release brings a series of enhancements across LogiqueCode’s product suite, 
+      focused on improving efficiency, usability, and operational control.
+    </p>
+    <p>
+      <b>Below are the latest release updates, providing a comprehensive overview of the 
+      key feature additions and improvements across GPMA, LMS, and DPMS platforms.</b>
+    </p>
+  </div>
+</div>
+<!-- NAVIGATION -->
+<div class="navbar">
+  <a href="#gpma">GPMA - Garment Production Management</a>
+  <a href="#lms">LMS - School Management Software </a>
+  <a href="#dpms">DPMS - Hospital Management Software </a>
+</div>
+<div class="container">
+
+  <!-- GPMA -->
+  <div class="card" id="gpma">
+    <h2>GPMA – Garment Production & Inventory Management</h2>
+    <div class="grid">
+      <div class="feature">
+        <h4>Enhanced Spare Requisition</h4>
+        <p>Improved tracking and faster approvals for efficient spare management.</p>
+      </div>
+      <div class="feature">
+        <h4>Production Sheet + Material Req</h4>
+        <p>Integrated material requisition within production workflow.</p>
+      </div>
+      <div class="feature">
+        <h4>Approval System</h4>
+        <p>Structured approval hierarchy for better control.</p>
+      </div>
+      <div class="feature">
+        <h4>Role-Based Access</h4>
+        <p>Secure, role-specific access to modules.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- LMS -->
+  <div class="card" id="lms">
+    <h2>LMS – Academic Management</h2>
+    <div class="grid">
+      <div class="feature">
+        <h4>Visitor Management</h4>
+        <p>Secure digital visitor tracking system.</p>
+        <ul>
+          <li>Digital visitor entry and tracking</li>
+          <li>Improved campus security and monitoring</li>
+        </ul>
+      </div>
+      <div class="feature">
+        <h4>Enquiry Dashboard</h4>
+        <p>Better visibility into admissions pipeline.</p>
+        <ul>
+          <li>Missed Follow-ups visibility added</li>
+          <li>Better tracking of admission enquiries and conversions</li>
+        </ul>
+      </div>
+      <div class="feature">
+        <h4>Batch Management UI</h4>
+        <p>Modern and intuitive interface.</p>
+        <ul>
+          <li>Modern and user-friendly interface</li>
+        </ul>
+      </div>
+      <div class="feature">
+        <h4>Subject-wise Attendance</h4>
+        <p>Granular attendance tracking.</p>
+        <ul>
+          <li>An enhancement with regular overall attendance system for Granular attendance tracking by subjects</li>
+          <li>Better academic monitoring and compliance</li>
+           <li>Dashboard integration for a holistic attendance view</li>
+        </ul>
+      </div>
+      <div class="feature">
+        <h4>Improved Hostel Management</h4>
+        <ul>
+          <li>Enhanced room allocation system</li>
+          <li>Better occupancy and student tracking</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- DPMS -->
+  <div class="card" id="dpms">
+    <h2>DPMS – Clinical Management</h2>
+    <div class="grid">
+      <div class="feature">
+        <h4>Template-Based Prescription</h4>
+        <p>Reduced doctor workload.</p>
+        <ul>
+        <li>Predefined prescription templates</li>
+        <li>Faster consultation process</li>
+        <li>Standardized clinical documentation</li>
+        </ul>
+      </div>
+      <div class="feature">
+        <h4>Custom Disease Management</h4>
+        <p>Improved clinical efficiency.</p>
+        <ul>
+          <li>Ability to add and manage custom diseases</li>
+          <li>Flexible configuration based on hospital requirements</li>
+        </ul>
+      </div>
+      <div class="feature">
+        <h4>Procedures & Investigations Control</h4>
+        <p>Improved clinical efficiency.</p>
+        <ul>
+          <li>Enable/disable procedures and investigations</li>
+          <li>Align system with facility availability</li>
+          <li>Improved accuracy in service offerings</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  <p>© 2026 <a href="https://logiquecode.com">LogiqueCode</a> • Product Engineering & SaaS Solutions</p>
+</div>
+
+</body>
+</html>

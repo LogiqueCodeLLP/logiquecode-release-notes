@@ -8,7 +8,7 @@
 
 | Version | Release Date | Notes |
 |--------|-------------|------|
-| [26.7.1](https://logiquecodellp.github.io/logiquecode-release-notes/26_7_1.html) | 4 July 2026 | Enhancements and Bug fixes across GPMA, CMRKS, LMS |
+| [26.7.1](https://logiquecodellp.github.io/logiquecode-release-notes/26_7_1.html) | 4 July 2026 | Enhancements and Bug fixes across GPMA, CMRKS, LMS & DPMS |
 | [26.6.2](https://logiquecodellp.github.io/logiquecode-release-notes/26_6_2.html) | 20 June 2026 | Enhancements and Bug fixes across GPMA, CMRKS, LMS |
 | [26.6.1](https://logiquecodellp.github.io/logiquecode-release-notes/26_6_1.html) | 06 June 2026 | Enhancements and Bug fixes across GPMA, LMS & DPMS |
 | [26.5.2](https://logiquecodellp.github.io/logiquecode-release-notes/26_5_2.html) | 23 May 2026 | Enhancements and Bug fixes across GPMA, LMS & DPMS |
